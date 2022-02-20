@@ -1,0 +1,155 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url(../images/multicolor\ blend.jpg);
+    background-size: cover;
+    background-repeat: round;
+    background-color: rgba(0,0,0,.5);
+    background-blend-mode: multiply;
+  padding-bottom: 10px;
+}
+
+#main-nav{
+    text-align: center;
+    padding: 1em ;
+    border-bottom: 1px solid gray;
+}
+#main-nav  li{
+    display: inline; 
+   
+}
+#main-nav a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 0 1em;
+}
+nav a:hover{
+    background-color: gray;
+    border-radius: 5%;
+}
+.main-heading{
+    color: white;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+} 
+.band-name{
+    font-size: 5em;
+    font-weight: normal;
+}
+
+
+.main-but{
+   margin: 0 0 0 30%;
+    white-space: nowrap;
+   padding: 1em 2em;
+   color: white;
+   background-color: rgba(140, 233, 202, 0.2);
+   border: 2px solid #8ce9ca80 ;
+   border-radius: 0;
+   font-size: 1em;
+   font-weight: lighter;
+   cursor: pointer;
+}
+.main-but:hover, .but-play:hover{
+    background-color:#8ce9ca80 ;
+}
+.but-play{
+   margin: 0 auto;
+   display: block;
+   margin-bottom: 10px;
+   background-color: rgba(140, 233, 202, 0.2);
+   border: 2px solid #8ce9ca80 ;
+   border-radius: 0;
+   color:#8ce9ca80;
+   padding:.5em .5em;
+   cursor: pointer;
+   border-radius: 50%;
+   font-size: 2em;
+}
+.section1{
+  margin: 0 40px 10px 40px;
+}
+.sec-heading{
+    text-align: center;
+    font-size: 2em;
+}
+.row{
+    padding-bottom: 1em;
+    border-bottom: 2px solid black;
+    margin-bottom: 1em;
+    
+}
+.outer{
+    /* position: relative; */
+}
+.row button{
+    background-color: aquamarine;
+    border: none;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 8px;
+     /* max-width: 19%; */
+}
+.date{
+    width: 11%;
+    display: inline-block;
+}
+.platform{
+    width: 22%;
+    display: inline-block;
+}
+.series{
+    width: 50%;
+    display: inline-block;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    /* margin: 1em; */
+    background-color: aquamarine;
+    display: flex;
+    clear: both;
+    margin: 0;
+}
+.contact{
+    margin: .5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+footer li{
+    display: inline;
+    /* margin: 10px; */
+    list-style-type: none;
+    padding: 0 .5em;
+}
+footer a{
+    text-decoration: none;
+    text-align: center;
+}
+footer ul{
+    flex-grow: 1;
+    text-align: end;
+   
+}
+footer a:hover{
+    top: 10px;
+    position: relative;
+    color:darkslateblue;
+}
+

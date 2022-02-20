@@ -1,0 +1,180 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url(../images/multicolor\ blend.jpg);
+    background-size: cover;
+    background-repeat: round;
+    background-color: rgba(0,0,0,.5);
+    background-blend-mode: multiply;
+}
+
+#main-nav{
+    text-align: center;
+    padding: 1em ;
+    border-bottom: 1px solid gray;
+}
+#main-nav  li{
+    display: inline; 
+   
+}
+#main-nav a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 0 1em;
+}
+nav a:hover{
+    background-color: gray;
+    border-radius: 5%;
+}
+.main-heading{
+    color: white;
+    text-align: center;
+    padding-bottom: 1em;
+    font-family: 'Akaya Telivigala', cursive;
+} 
+.band-name{
+    font-size: 5em;
+    font-weight: normal;
+}
+
+.section-heading{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+.item{
+    margin: 40px;
+    width: 200px;
+}
+.heading{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.item-details{
+    display: flex;
+    justify-content: center;
+    padding: .3em;
+}
+.item-details span{
+    flex-grow: 1;
+}
+.item-details button, .card-but{
+    background-color: rgb(15, 117, 83);
+    border: none;
+    padding:0.5em .5em;
+    color: white;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5%;
+}
+.item-details button:hover, .card-but:hover{
+  background-color: rgba(15, 117, 83,.7);
+}
+.mini-store{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section3{
+    margin: 40px;
+}
+.card-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.head1, .head2, .head3{
+   width: 30%;
+   margin-right: 10px;
+   border-bottom: 2px solid black;
+   padding-bottom: .4em;
+   display: flex;
+   align-items: center;
+}
+.card-items{
+    margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+   flex-grow: 1;
+}
+.card-img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px
+}
+input{
+    width: 28px; 
+    margin-right: 10px;  
+}
+.card-container{
+    border-bottom: 2px solid black;
+}
+.card-border .head1, .card-border .head2, .card-border .head3 {
+    border-bottom: none;
+}
+.card-total{
+    text-align: end;
+}
+.card-total .ttl{
+    font-weight: bold;
+    font-size: 2em;
+    margin-right: 40px;
+}
+.price{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+.purchase-but{
+    display: block;
+    text-align: center;
+   margin: 40px auto 80px auto;
+   padding: 15px;
+   font-size: 1em;
+}
+
+
+
+
+footer{
+    /* margin: 1em; */
+    background-color: aquamarine;
+    display: flex;
+    clear: both;
+    margin: 0;
+}
+.contact{
+    margin: .5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+footer li{
+    display: inline;
+    /* margin: 10px; */
+    list-style-type: none;
+    padding: 0 .5em;
+}
+footer a{
+    text-decoration: none;
+    text-align: center;
+}
+footer ul{
+    flex-grow: 1;
+    text-align: end;
+   
+}
+footer a:hover{
+    top: 10px;
+    position: relative;
+    color:darkslateblue;
+}
